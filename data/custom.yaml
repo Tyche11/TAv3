@@ -1,20 +1,24 @@
-train: /content/drive/MyDrive/Test/ta.v2i.yolov5pytorch/train/images
-val: /content/drive/MyDrive/Test/ta.v2i.yolov5pytorch/valid/images
-test: /content/drive/MyDrive/Test/ta.v2i.yolov5pytorch/test/images
+train: /content/drive/MyDrive/Test/Airplane turnaround Detection.v1i.yolov5pytorch/train/images
+val: /content/drive/MyDrive/Test/Airplane turnaround Detection.v1i.yolov5pytorch/valid/images
+test: /content/drive/MyDrive/Test/Airplane turnaround Detection.v1i.yolov5pytorch/test/images
 
 # Classes
 names:
-  0: fuselage
-  1: wing
-  2: front stairs
-  3: back stairs
-  4: loading bagagge
-  5: airplane
-  6: GPU refuel
-  7: refuelling
-  8: person
-  9: carrier cart
-  10: loading cart
-  11: car
-  12: truck
-  13: truck
+  0: airplane
+  1: baggage_truck
+  2: jet_bridge
+  3: person
+  4: rump_loader
+  5: stairway
+  6: pushback_tug
+  7: rolling_stairway
+  8: bridge_connected
+  9: bus
+  10: catering_truck
+  11: fuel_hose
+  12: fuel_truck
+  13: fueling
+  14: ground_power
+  15: pushback_tractor
+  16: ramp_loader
+  17: resupply_truck
